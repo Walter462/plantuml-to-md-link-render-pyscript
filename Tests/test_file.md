@@ -5,7 +5,6 @@
 Bob -> Alice : Hello Alice!
 @enduml
 ```
-![PlantUML](https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKl18pSd9X_0KkHnIyrA0QW00)
 ![Kroki](https://kroki.io/plantuml/svg/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKl18pSd9X_0KkHnIyrA0QW00)
 
 
@@ -16,7 +15,6 @@ Bob -> Alice : Hello Alice!
 Bob <- Alice : Hi there Bob!
 @enduml
 ```
-![PlantUML](https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBAJrAmqLLmpCbCJbMmKl38L2Z9I2rALG2AAt8vfEQb01K10000)
 ![Kroki](https://kroki.io/plantuml/svg/SoWkIImgAStDuNBAJrAmqLLmpCbCJbMmKl38L2Z9I2rALG2AAt8vfEQb01K10000)
 
 # Diagram 3 (Kroki server test)
