@@ -61,7 +61,10 @@ https://www.plantuml.com/plantuml/svg/TSun3i8m30NGFQVudTjSW07AHhc5LJwaafj88HNYzZ
 
 By including this link in a markdown image syntax (`![](<link>)`), you can render it on a web server, fetching the diagram as a PNG, SVG, or ASCII art. It can also be [rendered locally](https://plantuml.com/starting) using Docker or Java runtime.
 
-![](https://www.plantuml.com/plantuml/svg/TSun3i8m30NGFQVudTjSW07AHhc5LJwaafj88HNYzZZDYEhjo-zR7jz5SjbMTLTTPlepxYb4zFq9DwgcFGu8wGF9n3Tj5mURFztSBB4Q14h6ocRhoflTE_3UJYyj39XgfN7hTGT-mfDKl3AbT6vaVDZ7Fm00)
+### WEB-server diagram rendered from a generated link:
+
+![WEB-server rendered diagram](https://kroki.io/plantuml/svg/TSun3i8m30NGFQVudTjSW07AHhc5LJwaafj88HNYzZZDYEhjo-zR7jz5SjbMTLTTPlepxYb4zFq9DwgcFGu8wGF9n3Tj5mURFztSBB4Q14h6ocRhoflTE_3UJYyj39XgfN7hTGT-mfDKl3AbT6vaVDZ7Fm00)
+
 
 # Why Use PlantUML
 
@@ -81,7 +84,7 @@ These features make PlantUML more complex than Mermaid.js, but it offers greater
 
 1. Specify the folder containing the markdown file. If the file is in the current working directory (CWD), leave this field empty.
 2. Input the markdown file name.
-3. Adjust the `PLANTUML_BASE_URL` variable if you want to render locally.
+3. Adjust the `PLANTUML_BASE_URL` variable if you want to render locally or change the WEB server.
 4. Run the script.
 5. Make changes to the diagram in the markdown file.
 6. Save the changes.
