@@ -84,7 +84,7 @@ These features make PlantUML more complex than Mermaid.js, but it offers greater
 
 1. [Specify](https://github.com/Walter462/plantuml-to-md-link-render-pyscript/blob/c7bde8b4431fae5508bf5a31a4b5954d297875c3/Script/script.py#L89) the folder containing the markdown file. If the file is in the current working directory (CWD), leave this field empty.
 2. [Input](https://github.com/Walter462/plantuml-to-md-link-render-pyscript/blob/c7bde8b4431fae5508bf5a31a4b5954d297875c3/Script/script.py#L90) the markdown file name.
-3. [Adjust](https://github.com/Walter462/plantuml-to-md-link-render-pyscript/blob/c7bde8b4431fae5508bf5a31a4b5954d297875c3/Script/script.py) the `PLANTUML_BASE_URL` variable if you want to render locally or change the WEB server.
+3. [Adjust](https://github.com/Walter462/plantuml-to-md-link-render-pyscript/blob/c7bde8b4431fae5508bf5a31a4b5954d297875c3/Script/script.py#L8) the `PLANTUML_BASE_URL` variable if you want to render locally or change the WEB server.
 4. Run the script.
 5. Make changes to the diagram in the markdown file.
 6. Save the changes.
