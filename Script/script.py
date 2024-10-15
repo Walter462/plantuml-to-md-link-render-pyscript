@@ -5,7 +5,7 @@ import base64
 
 # Constants
 # Deafult PlantUML srver address. Can be changed to local. Ex: http://localhost:8180/svg/
-PLANTUML_BASE_URL = "https://kroki.io/plantuml/svg/"
+PLANTUML_BASE_URL = "https://www.plantuml.com/plantuml/svg/"
 """
 Server adresses options:
 WEB 1: https://kroki.io/plantuml/svg/
@@ -57,8 +57,8 @@ def process_markdown_file(input_file: str, output_file: str, base_folder: str = 
         return
 
     # Step 1: Remove existing PlantUML links
-    #plantuml_link_pattern = re.compile(r'!\[\]\(https://www\.plantuml\.com/plantuml[^\)]*\)')
-    plantuml_link_pattern = re.compile(r'!\[\]\(https://www\.kroki\.io/plantuml[^\)]*\)')
+    plantuml_link_pattern = re.compile(r'!\[\]\(https://www\.plantuml\.com/plantuml[^\)]*\)')
+    #plantuml_link_pattern = re.compile(r'!\[\]\(https://www\.kroki\.io/plantuml[^\)]*\)')
     content_without_old_links = plantuml_link_pattern.sub('', content)
 
     # Step 2: Process PlantUML blocks to generate new links
@@ -83,7 +83,7 @@ def process_markdown_file(input_file: str, output_file: str, base_folder: str = 
     except IOError as e:
         print(f"Error writing file '{output_file}': {e}")
 
-# Example usage
+# Script entry point
 if __name__ == "__main__":
     project_dir = os.getcwd()
     data_folder = 'Tests'   # Change this to the name of your data folder
